@@ -1,0 +1,33 @@
+.footer {
+    background: #45456b;
+    color: #FFF;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+    margin-bottom: 10px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+.footer_text p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.alinha_footer{
+    margin-bottom: 30px;
+}
+
+
+
+
+    

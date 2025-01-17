@@ -1,0 +1,31 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.times {
+  text-align: center;
+  
+}
+
+.times_title {
+  text-align: center;
+  background-color: #45456b;
+  
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+  border-bottom: 4px solid #ffffff;
+  display: inline-block;
+  padding-bottom: 24px;
+  margin: 32px 0;
+}
+
+h1, h2 {
+  font-family: 'Prata', serif;
+}

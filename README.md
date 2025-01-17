@@ -6,19 +6,19 @@ O Projeto Sentinela é um site desenvolvido em React com JavaScript, hospedado e
 
 O Projeto Sentinela oferece um sistema de cadastramento simples inspirado nos personagens da Marvel (X-Men). Abaixo estão as principais funcionalidades:
 
-<h2>Cadastramento de Mutantes</h2>
+<h3>Cadastramento de Mutantes</h3>
 Permite registrar mutantes no sistema, incluindo suas características e níveis de poder.
 
-<h2>Classificação por Nível de Poder</h2>
+<h3>Classificação por Nível de Poder</h3>
 Os mutantes cadastrados são organizados com base em seus níveis de poder, que podem ser configurados livremente no sistema.
 
-<h2>Criação de Novos Níveis de Poder</h2>
+<h3>Criação de Novos Níveis de Poder</h3>
 Adicione e gerencie novos níveis de poder para classificar os mutantes de forma personalizada.
 
-<h2>Favoritos e Alvos Prioritários</h2>
+<h3>Favoritos e Alvos Prioritários</h3>
 Marque mutantes como favoritos, destacando aqueles que devem ser capturados ou monitorados.
 
-<h2>Interface Simples e Intuitiva</h2>
+<h3>Interface Simples e Intuitiva</h3>
 Oferece uma navegação fácil, permitindo que qualquer usuário interaja rapidamente com o sistema de cadastramento.
 Essas funcionalidades tornam o sistema ideal para gerenciamento e organização de informações sobre mutantes no universo dos X-Men.
 
@@ -28,18 +28,18 @@ React: Biblioteca JavaScript para construção de interfaces de usuário.
 JavaScript: Linguagem de programação utilizada no desenvolvimento do projeto.
 Vercel: Plataforma de hospedagem utilizada para deploy do site.
 
-<h2>Instalação</h2>
+<h3>Instalação</h3>
 Para executar este projeto localmente, siga os passos abaixo:
 
-<h2>Clone este repositório:</h2>
+<h3>Clone este repositório:</h3>
 git clone https://github.com/Andre-StudioNerd/projeto_sentinela.git
 
-<h2>Navegue até o diretório do projeto:</h2>
+<h3>Navegue até o diretório do projeto:</h3>
 cd projeto_sentinela
 Instale as dependências:
 npm install
 
-<h2>Inicie o servidor de desenvolvimento:</h2>
+<h3>Inicie o servidor de desenvolvimento:</h3>
 npm start
 Após executar esses comandos, o aplicativo estará disponível em http://localhost:3000.
 
@@ -61,8 +61,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar 
 Este projeto está licenciado sob a Licença MIT. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original.
 Você pode encontrar uma cópia completa da licença no arquivo LICENSE deste repositório.
 
-<h2>Resumo da Licença MIT:</h2>
-
+<h3>Resumo da Licença MIT:</h3>
 É permitido uso comercial, privado ou acadêmico.
 Alterações e distribuições são permitidas.
 Nenhuma garantia é fornecida pelo autor

@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<h1>Projeto Sentinela</h1>h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Projeto Sentinela é um site desenvolvido em React com JavaScript, hospedado em projeto-sentinela.vercel.app.
 
-## Available Scripts
+<h1>Funcionalidades</h1>h1>
 
-In the project directory, you can run:
+O Projeto Sentinela oferece um sistema de cadastramento simples inspirado nos personagens da Marvel (X-Men). Abaixo estão as principais funcionalidades:
 
-### `npm start`
+<h2>Cadastramento de Mutantes</h2>
+Permite registrar mutantes no sistema, incluindo suas características e níveis de poder.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Classificação por Nível de Poder</h2>
+Os mutantes cadastrados são organizados com base em seus níveis de poder, que podem ser configurados livremente no sistema.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Criação de Novos Níveis de Poder</h2>
+Adicione e gerencie novos níveis de poder para classificar os mutantes de forma personalizada.
 
-### `npm test`
+<h2>Favoritos e Alvos Prioritários</h2>
+Marque mutantes como favoritos, destacando aqueles que devem ser capturados ou monitorados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Interface Simples e Intuitiva</h2>
+Oferece uma navegação fácil, permitindo que qualquer usuário interaja rapidamente com o sistema de cadastramento.
+Essas funcionalidades tornam o sistema ideal para gerenciamento e organização de informações sobre mutantes no universo dos X-Men.
 
-### `npm run build`
+<h1>Tecnologias Utilizadas</h1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+JavaScript: Linguagem de programação utilizada no desenvolvimento do projeto.
+Vercel: Plataforma de hospedagem utilizada para deploy do site.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Instalação</h2>
+Para executar este projeto localmente, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>Clone este repositório:</h2>
+git clone https://github.com/Andre-StudioNerd/projeto_sentinela.git
 
-### `npm run eject`
+<h2>Navegue até o diretório do projeto:</h2>
+cd projeto_sentinela
+Instale as dependências:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2>Inicie o servidor de desenvolvimento:</h2>
+npm start
+Após executar esses comandos, o aplicativo estará disponível em http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h1>Scripts Disponíveis</h1>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+No diretório do projeto, você pode executar:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start: Inicia o aplicativo em modo de desenvolvimento.
+npm test: Inicia o executor de testes no modo interativo.
+npm run build: Compila o aplicativo para produção na pasta build.
+npm run eject: Remove a dependência de build única do projeto. Nota: Esta ação é irreversível.
 
-## Learn More
+<h1>Contribuição</h1>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1>Licença</h1>
 
-### Code Splitting
+Este projeto está licenciado sob a Licença MIT. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original.
+Você pode encontrar uma cópia completa da licença no arquivo LICENSE deste repositório.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h2>Resumo da Licença MIT:</h2>
 
-### Analyzing the Bundle Size
+É permitido uso comercial, privado ou acadêmico.
+Alterações e distribuições são permitidas.
+Nenhuma garantia é fornecida pelo autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

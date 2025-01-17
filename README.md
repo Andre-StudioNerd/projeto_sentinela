@@ -1,8 +1,8 @@
-<h1>Projeto Sentinela</h1>h1>
+<h1>Projeto Sentinela</h1>
 
 O Projeto Sentinela é um site desenvolvido em React com JavaScript, hospedado em projeto-sentinela.vercel.app.
 
-<h1>Funcionalidades</h1>h1>
+<h1>Funcionalidades</h1>
 
 O Projeto Sentinela oferece um sistema de cadastramento simples inspirado nos personagens da Marvel (X-Men). Abaixo estão as principais funcionalidades:
 

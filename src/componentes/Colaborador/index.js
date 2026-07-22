@@ -14,24 +14,29 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar, aoFavoritar }) => {
   };
   return (
     <div className="colaborador">
-      
       <AiFillCloseCircle
         size={40}
         color="red"
         className="deletar"
-        
+        title="Eliminado"
         onClick={() => aoDeletar(colaborador.id)}
-      /> 
+      />
       <div className="cabecalho" style={{ backgroundColor: corDeFundo }}>
         <img src={colaborador.imagem} alt={colaborador.nome} />
       </div>
       <div className="rodape">
         <h4>{colaborador.nome}</h4>
         <h5>{colaborador.cargo}</h5>
-        <div className="alvo">Clique no ícone abaixo para travar ou destravar o alvo</div>
+        <div className="alvo">
+          Clique no ícone abaixo para travar ou destravar o alvo
+        </div>
         <div className="favoritar">
           {colaborador.favorito ? (
-            <GiHumanTarget {...propsfavorito} color="#ff0000" alt="Travar Alvo"/>
+            <GiHumanTarget
+              {...propsfavorito}
+              color="#ff0000"
+              alt="Travar Alvo"
+            />
           ) : (
             <TfiTarget {...propsfavorito} />
           )}

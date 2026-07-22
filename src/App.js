@@ -226,10 +226,6 @@ function App() {
     );
   }
 
-  function cadastrarTime(novoTime) {
-    setTimes([...times, { ...novoTime, id: uuidv4() }]);
-  }
-
   function resolverFavorito(id) {
     setColaboradores(
       colaboradores.map((colaborador) => {
